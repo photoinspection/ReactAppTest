@@ -1,0 +1,32 @@
+body {
+  font-family: tahoma;
+  background-color: #fff;
+  color: #fff;
+  background: url("https://www.photoinspection.com/v1/sites/all/themes/startupgrowth_lite/images/parallax-bg.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+form {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  color: #fff;
+  background-color: #1e5799;
+  border-radius: 15px;
+  opacity: 0.95;
+}
+
+#root__title {
+  font-family: arial;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
