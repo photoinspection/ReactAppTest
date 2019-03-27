@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Form from "react-jsonschema-form";
 
 const schema = {
-  title: "Login",
+  title: "Photoinspection.com Login",
   type: "object",
   required: ["username", "password"],
   properties: {
@@ -25,7 +25,8 @@ const schema = {
 };
 
 const uiSchema = {
-  "ui:order": ["username", "password", "remember"]
+  "ui:order": ["username", "password", "remember"],
+  "ui:widget": "password"
 };
 
 const log = type => console.log.bind(console, type);
@@ -33,7 +34,7 @@ const log = type => console.log.bind(console, type);
 export default class Login extends Component {
   render() {
     return (
-      <div class="container central">
+      <div className="container central">
         <Form
           schema={schema}
           uiSchema={uiSchema}
